@@ -6,13 +6,13 @@ public class Monster : MonoBehaviour
 {
 
     [HideInInspector]
-    private Rigidbody2D myBody;
-
     public float speed;
+
+    private Rigidbody2D myBody;
 
     // Start is called before the first frame update
 
-    private void Awake()
+    void Awake()
     {
         myBody = GetComponent<Rigidbody2D>();
     }
