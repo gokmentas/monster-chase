@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     [SerializeField]
-    private GameObject[] players;
+    private GameObject[] characters;
 
     private int _charIndex;
     public int charIndex
@@ -43,6 +43,11 @@ public class GameManager : MonoBehaviour
 
     void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
     {
+
+        if(scene.name == "Gameplay")
+        {
+            Instantiate(characters[charIndex]);
+        }
 
     }
 

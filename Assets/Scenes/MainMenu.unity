@@ -823,7 +823,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ce2c49cefbf6e49b8e0dd22fa4d776, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  players:
+  characters:
   - {fileID: 8301180452989666497, guid: e516653b5f25a8a4f9367aeab26696a9, type: 3}
   - {fileID: 4759482883668594150, guid: 382b2cfe1a7383d439c0fe9cb9c100ba, type: 3}
 --- !u!4 &1626589429
